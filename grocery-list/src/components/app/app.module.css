@@ -1,0 +1,25 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #0A369D;
+    margin: auto;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.error {
+    color: red;
+}
