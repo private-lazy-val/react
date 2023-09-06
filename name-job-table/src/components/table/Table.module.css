@@ -1,0 +1,41 @@
+.table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: left;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Style the table header */
+.table-header {
+    background-color: blue;
+    color: white;
+}
+
+/* Style the table header cells */
+.table-header th {
+    padding: 10px 20px;
+}
+
+/* Style the table body */
+.table-body {
+    background-color: #f3f3f3;
+}
+
+/* Style the table body cells */
+.table-body td {
+    padding: 10px 20px;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
